@@ -1,0 +1,57 @@
+  html {
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+  }  
+  div {
+    text-align: center;
+  }
+  header {
+    display: flex;
+    background: #5c5c5c;
+    color: black;
+    font-size: 20px;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    line-height: 15px;
+  }
+  main {
+    background: #c2c2c2;
+    margin: 0;
+    gap: 0;
+    margin-top: -20px;
+    text-align: center;
+  }
+  footer {
+    font-size: 20px;
+    background: #5c5c5c;
+    color: black;
+    margin-top: -30px;
+    height: 45px;
+    line-height: 44px;
+  }
+  hr {
+    background-color: #5c5c5c;
+  }
+  ol {    
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+  }
+  ul {    
+    list-style-position: inside;
+    display: table;
+    margin: 0 auto;
+  }
+  p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .modification {
+    font-size: 20px;
+  }
+ 
