@@ -6,7 +6,9 @@
   div {
     text-align: center;
   }
+  /* this is the css for the header */
   header {
+    font-family:'Times New Roman', Times, serif;
     display: flex;
     background: #5c5c5c;
     color: black;
@@ -17,14 +19,18 @@
     height: 100px;
     line-height: 15px;
   }
+  /* this is the css for the main */
   main {
+    font-family: 'Times New Roman', Times, serif;
     background: #c2c2c2;
     margin: 0;
     gap: 0;
     margin-top: -20px;
     text-align: center;
   }
+  /* this is the css for the footer */
   footer {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background: #5c5c5c;
     color: black;
@@ -36,23 +42,29 @@
   hr {
     background-color: #5c5c5c;
   }
-  ol {    
+  ol {
+    font-family: 'Times New Roman', Times, serif;    
     text-align: center;
     display: table;
     margin: 0 auto;
+    color: black;
+    font-weight: bold;
   }
-  ul {    
+  ul { 
+    font-family: 'Times New Roman', Times, serif;   
     list-style-position: inside;
     display: table;
     margin: 0 auto;
   }
   p {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
   .modification {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     font-weight:900;
   }
