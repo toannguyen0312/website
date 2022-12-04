@@ -3,9 +3,12 @@
     width: 100%;
     margin-top: auto;
   }  
+
+  /* this change the <div> tag */
   div {
     text-align: center;
   }
+
   /* this is the css for the header */
   header {
     font-family:'Times New Roman', Times, serif;
@@ -19,6 +22,7 @@
     height: 100px;
     line-height: 15px;
   }
+
   /* this is the css for the main */
   main {
     font-family: 'Times New Roman', Times, serif;
@@ -27,7 +31,9 @@
     gap: 0;
     margin-top: -20px;
     text-align: center;
+    padding-top: 10px;
   }
+
   /* this is the css for the footer */
   footer {
     font-family: 'Times New Roman', Times, serif;
@@ -39,9 +45,13 @@
     line-height: 44px;
     font-weight: 900;
   }
+
+  /* this change the color of the <hr> tag */
   hr {
     background-color: #5c5c5c;
   }
+
+  /* this change styles of the order lists of the <ol> tag */
   ol {
     font-family: 'Times New Roman', Times, serif;    
     text-align: center;
@@ -50,12 +60,16 @@
     color: black;
     font-weight: bold;
   }
+
+  /* this change styles of the unordered lists of the <ul> tag */
   ul { 
     font-family: 'Times New Roman', Times, serif;   
     list-style-position: inside;
     display: table;
     margin: 0 auto;
   }
+
+  /* this change the styles of the paragrapgs which is <p> tag */
   p {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -63,9 +77,17 @@
     justify-content: center;
     align-items: center;
   }
+
+  /* this change the <p> Software Engineer </p> */
   .modification {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     font-weight:900;
+  }
+  
+  /* this change the style of the link */
+  .linkChange {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
   }
  
