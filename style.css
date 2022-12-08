@@ -86,7 +86,7 @@
   }
   
   /* this change the style of the link */
-  a:link {
+  a:-webkit-any-link {
     font-family: 'Times New Roman', Times, serif;
     color: black;
   }
